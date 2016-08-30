@@ -6,7 +6,7 @@
     <h1><%= @user.profile.first_name %> <%= @user.profile.last_name %></h1>
     <h3><%= job_title_icon(@user.profile.job_title) %></h3>
     
-    <% if true %>
+    <% if current_user.plan_id == 2 %>
       <div class="well profile-block contact-info">
         <h3>Contact info</h3>
         <%= @user.profile.phone_number %><br/>
