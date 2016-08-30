@@ -1,8 +1,6 @@
 .img-avatar{
   box-shadow: 10px 10px 43px 0px rgba(0,0,0,0.75);
   border-radius: 50%;
-  height: 150px;
-  width: 150px;
 }
 .job-title-icon{
   background-color: #337ab7;
@@ -30,4 +28,8 @@
     margin-top: 0;
     padding-top: 0;
   }
+}
+
+.well.white-bg{
+  background-color: #fff;
 }
